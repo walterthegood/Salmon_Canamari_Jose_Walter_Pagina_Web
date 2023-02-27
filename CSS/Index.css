@@ -1,0 +1,198 @@
+*{
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: none;
+    cursor: url(../Imagenes/Hola.png), auto; 
+}
+
+a{
+	cursor: url(../Imagenes/Hola.png), auto;
+}
+
+header{
+    width: 100%;
+}
+.navegacion{
+   
+	width: 100%;
+    height:190px;
+    transition: 3s;
+    background-image:  url(../Imagenes/logo.png),url(../Imagenes/mundo.jpg);
+    background-size: 120px 180px, 100% ;
+    background-position: 99% 10px, 0 -450px;
+    background-repeat: no-repeat;
+    text-align: center;
+    transition: 3s;
+    margin: auto;
+}
+
+
+.navegacion:hover{
+    width: 100%;
+    height: 600px;
+    transition: 3s;
+    background-image:  url(../Imagenes/logo.png),url(../Imagenes/mundo.jpg);
+    background-size: 120px 180px, 100% ;
+    background-position: 99% 10px, 0 -450px;
+    background-repeat: no-repeat;
+    text-align: center;
+    transition: 3s;
+}
+
+.navegacion ul{
+	list-style: none;
+    
+}
+
+.menu > li{
+	position: relative;
+	display: inline-block;
+   
+}
+
+.menu > li > a{
+
+	display: block;
+	padding: 15px 40px;
+	color: black;
+	font-family: Arial, Helvetica, sans-serif;
+	text-decoration: none;
+	font-size: 25px;
+    font-weight: 900;
+	top: 0px;
+    border: 1px yellow solid;
+    border-radius: 10px;
+    
+  
+}
+
+.leyendas:hover{
+    transition: 3s;
+    text-shadow:  -0px -2px 5px red, 0px 3px 5px orange,-0px -2px 5px red, 0px 3px 5px orange;
+}
+
+.Primero::first-letter{ 
+        font-size: 50px;
+        font-family: 'Times New Roman', Times, serif;
+}
+.Primero{
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.cero{
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+}
+table{
+    border: 1px solid black;
+
+}
+.tabla{
+    text-align: center;
+}
+.Clasificado{
+    border: 1px solid black;
+    border-spacing: 0cap;
+    border: none;
+    background-color: rgba(0, 132, 255, 0.747);
+}
+td{
+    border-collapse: collapse;
+    border-spacing: 0;
+    border: 1px solid black;
+}
+
+section {
+    display: flex;
+    width: 600px;
+    height: 430px;
+}
+
+section img {
+    width: 0;
+    flex-grow: 1;
+    object-fit: cover;
+    opacity: 8;
+    transition: 1s;
+}
+
+section  img:hover{
+    cursor: crosshair;
+    width: 300px;
+    opacity: 1;
+    filter: contrast(120%);
+}
+
+.Imagen1{
+width: 30px;
+height: 20px;}
+
+.oro{
+    text-align: center;
+    text-align: center;
+    animation: Oro 3s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    
+}
+    @keyframes Oro{
+        0%{
+            text-shadow: -0px -2px 5px rgb(255, 0, 0), 0px 3px 5px rgb(255, 123, 0),-0px -2px 5px rgb(255, 217, 0);
+            transition: 3s;
+        }
+        25%{
+            text-shadow: -0px -2px 5px rgb(255, 251, 0), 0px 3px 5px rgb(255, 166, 0),-0px -2px 5px rgb(251, 255, 0);
+            transition: 3s;
+        }
+        50%{
+            text-shadow: -0px -2px 5px rgb(255, 230, 0), 0px 3px 5px rgb(255, 174, 0),-0px -2px 5px rgb(255, 0, 191);
+            transition: 3s;
+        }
+        75%{
+            text-shadow: -0px -2px 5px rgb(255, 166, 0), 0px 3px 5px rgb(255, 208, 0),-0px -2px 5px rgb(255, 0, 191);
+            transition: 3s;
+        }
+        100%{
+            text-shadow: -0px -2px 5px rgb(255, 0, 0), 0px 3px 5px rgb(255, 123, 0),-0px -2px 5px rgb(255, 217, 0);
+            transition: 3s;
+        }
+}
+.Titulo{
+    text-align: center;
+    animation: Text 3s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    
+}
+    @keyframes Text{
+        0%{
+            text-shadow: -0px -2px 5px rgb(174, 255, 0), 0px 3px 5px rgb(0, 255, 149),-0px -2px 5px rgb(204, 255, 0);
+            transition: 3s;
+        }
+        25%{
+            text-shadow: -0px -2px 5px rgb(0, 225, 255), 0px 3px 5px rgb(162, 0, 255),-0px -2px 5px rgb(187, 255, 0);
+            transition: 3s;
+        }
+        50%{
+            text-shadow: -0px -2px 5px rgb(0, 255, 136), 0px 3px 5px rgb(102, 255, 0),-0px -2px 5px rgb(255, 0, 191);
+            transition: 3s;
+        }
+        75%{
+            text-shadow: -0px -2px 5px rgb(0, 255, 21), 0px 3px 5px rgb(0, 195, 255),-0px -2px 5px rgb(255, 0, 191);
+            transition: 3s;
+        }
+        100%{
+            text-shadow: -0px -2px 5px rgb(174, 255, 0), 0px 3px 5px rgb(0, 255, 149),-0px -2px 5px rgb(204, 255, 0);
+            transition: 3s;
+        }
+}
+
+.oculto {
+    visibility: hidden;
+}
+
+
+#Informacion:checked + .oculto  {
+    visibility: visible;
+    transition: 2s;
+
+}
