@@ -1,15 +1,18 @@
 *{
     font-family: 'Times New Roman', Times, serif;
     text-decoration: none;
-    cursor: url(../Imagenes/Hola.png), auto; 
+    
 }
 
 a{
-	cursor: url(../Imagenes/Hola.png), auto;
+	
+    cursor: url(../Imagenes/Hola.png), auto; 
+
 }
 
 header{
     width: 100%;
+    cursor: url(../Imagenes/Hola.png), auto; 
 }
 .navegacion{
    
@@ -17,6 +20,7 @@ header{
     height:190px;
     transition: 3s;
     background-image:  url(../Imagenes/logo.png),url(../Imagenes/mundo.jpg);
+
     background-size: 120px 180px, 100% ;
     background-position: 99% 10px, 0 -450px;
     background-repeat: no-repeat;
@@ -50,55 +54,247 @@ header{
 }
 
 .menu > li > a{
-
 	display: block;
 	padding: 15px 40px;
-	color: black;
 	font-family: Arial, Helvetica, sans-serif;
 	text-decoration: none;
 	font-size: 25px;
     font-weight: 900;
+    color: black;
 	top: 0px;
-    border: 1px yellow solid;
+    border: 2px yellow solid;
     border-radius: 10px;
     
-  
+    
 }
 
+.leyendas{
+    transition: 2s;
+    animation: efecto 3s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    
+}
+    @keyframes efecto{
+        0%{
+            text-shadow: -0px -2px 5px rgb(4, 255, 0), 0px 3px 5px rgb(0, 225, 255)0px -2px 5px rgb(0, 26, 255);
+            transition: 2s;
+        }
+        25%{
+            text-shadow: -0px -2px 5px rgb(68, 0, 255), 0px 3px 5px rgb(183, 0, 255),-0px -2px 5px rgb(255, 0, 255);
+            transition: 2s;
+        }
+        50%{
+            text-shadow: -0px -2px 5px rgb(255, 0, 85), 0px 3px 5px rgb(255, 0, 0),-0px -2px 5px rgb(255, 0, 191);
+            transition: 2s;
+        }
+        75%{
+            text-shadow: -0px -2px 5px rgb(187, 0, 255), 0px 3px 5px rgb(85, 0, 255),-0px -2px 5px rgb(0, 64, 255);
+            transition: 2s;
+        }
+        100%{
+            text-shadow: -0px -2px 5px rgb(0, 136, 255), 0px 3px 5px rgb(0, 255, 242),-0px -2px 5px rgb(0, 255, 94);
+            transition: 2s;
+        }
+}
 .leyendas:hover{
     transition: 3s;
-    text-shadow:  -0px -2px 5px red, 0px 3px 5px orange,-0px -2px 5px red, 0px 3px 5px orange;
+    color: white;
+    background: conic-gradient(rgba(255, 255, 255, 0.911), rgba(34, 255, 0, 0.894));
+    border-radius: 15px;
 }
 
-.Primero::first-letter{ 
+.leyendas:hover> a{
+  
+    animation: uno 2s;
+    animation-timing-function:initial;
+    animation-iteration-count: infinite;
+
+}
+    @keyframes uno{
+        0%{
+            color: white;
+            transition: 2s;
+        }
+        25%{
+            color: rgb(68, 0, 255) ;
+            transition: 2s;
+        }
+        50%{
+            color: rgb(0, 255, 242) ;
+            transition: 2s;
+        }
+        75%{
+            color: rgb(0, 255, 94) ;
+            transition: 2s;
+        }
+        100%{
+            color: rgb(183, 0, 255);
+            transition: 2s;
+        }
+}
+
+
+.ParrafoSegundo::first-letter{ 
         font-size: 50px;
         font-family: 'Times New Roman', Times, serif;
 }
-.Primero{
-    font-size: 25px;
+.ParrafoSegundos::first-letter{ 
+    font-size: 50px;
     font-family: 'Times New Roman', Times, serif;
 }
-.cero{
-    font-size: 25px;
+.ParrafoSegundos{
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    font-size: 30px;
     font-family: 'Times New Roman', Times, serif;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 20px;
+}
+.ParrafoSegundo{
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    padding-right: 10px;
+    margin-top: -30px;
+}
+.CuartoP{
+    background-color: rgba(245, 245, 245, 0.5);
+    color: white;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    padding-right: 10px;
+}
+.CuartoP::first-letter{
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.cero::first-letter{ 
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.parafcuarto::first-letter{
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.parafcuarto{
+    background-color: rgba(245, 245, 245, 0.5);
+    color: white;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    padding-right: 10px;
+}
+
+
+
+.cero{
+    background-color: rgba(6, 61, 243, 0.445);
+    color: white;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    padding-right: 10px;
+    margin-top: -30px;
+}
+
+legend{
+    text-align: center;
+    font-size: 30px;
+}
+
+.Fase{
+    margin: auto;
+    text-align: center;
+    border: 1px solid white;
+    height: 150px;
+    width: 40%;
+    margin-bottom: -140px;
+    color: white;
+ 
+}
+.Fase2{
+    visibility: visible;
+    color: white;
+    
 }
 table{
-    border: 1px solid black;
+    border: 1px solid white;
+}
+
+.tabla, .tabla2{
+    visibility: hidden;
+    color: white;
 
 }
-.tabla{
-    text-align: center;
+.va{
+    color: white;
+    font-size: 30px;
 }
+
+#Información:checked ~ .tabla2{
+    visibility: visible;
+    text-align: center;
+    margin-top: -200px;
+}
+
+#Información:checked ~ .tabla  {
+    text-align: center;
+    margin: auto;
+    height: 1px;
+    width: auto;
+    transition: 5s;
+    visibility: visible;
+    height: auto;
+    animation: tabla 5s;
+    animation-timing-function: linear;
+
+    
+}
+
+
+#Información:checked ~ .Fase {
+   
+    visibility: hidden;
+    margin: auto;
+    text-align: center;
+    border: 1px solid black;
+    height: 100px;
+    width: 45%;
+
+}
+#Información:checked ~ .Fase2{
+    visibility: hidden;
+    margin: auto;
+    text-align: center;
+    border: 1px solid black;
+    height: 150px;
+    width: 45%;
+
+}
+
 .Clasificado{
     border: 1px solid black;
-    border-spacing: 0cap;
-    border: none;
-    background-color: rgba(0, 132, 255, 0.747);
+    border-spacing: 0ch;
+    background-color: rgba(0, 195, 255, 0.747);
 }
 td{
-    border-collapse: collapse;
     border-spacing: 0;
-    border: 1px solid black;
+    border: none;
 }
 
 section {
@@ -128,7 +324,7 @@ height: 20px;}
 
 .oro{
     text-align: center;
-    text-align: center;
+    font-size: 80px;
     animation: Oro 3s;
     animation-timing-function: linear;
     animation-iteration-count: infinite;
@@ -157,10 +353,12 @@ height: 20px;}
         }
 }
 .Titulo{
+    text-decoration: underline;
     text-align: center;
     animation: Text 3s;
     animation-timing-function: linear;
     animation-iteration-count: infinite;
+    font-size: 80px;
     
 }
     @keyframes Text{
@@ -186,13 +384,168 @@ height: 20px;}
         }
 }
 
+/*TABLA DE OCTAVOS*/
+.visible{
+    margin: auto;
+    text-align: center;
+    height: 100px;
+    width: 40%;
+    margin-bottom: -400px;
+}
+
+.Octavo{
+    margin: auto;
+    text-align: center;
+    height: 200px;
+    width: 40%;
+}
+
 .oculto {
     visibility: hidden;
 }
 
+.Cuartos{
+    margin: auto;
+    text-align: center;
+    height: 200px;
+    width: 40%;
+}
 
-#Informacion:checked + .oculto  {
+#Informacion:checked ~ .oculto  {
     visibility: visible;
-    transition: 2s;
+    margin: auto;
+    text-align: center;
+    height: 200px;
+    width: 40%;
+    margin-top: -120px;
+    margin-bottom: 100px;
+}
 
+#Informacion:checked ~ video{
+    visibility: visible;
+    transition: 3s;
+    margin-top: 100px;
+    margin-left: 40%;
+    height: 300px;
+    width: 500px;
+}
+video{
+    visibility: hidden;
+    margin-left: 40%;
+    height: 300px;
+    width: 500px;
+}
+    
+#Informacion:checked ~ .visible {
+    visibility: hidden;
+}
+
+/*TABLA DE CUARTOS */
+.ver{
+    margin: auto;
+    text-align: center;
+    height: 100px;
+    width: 40%;
+    margin-bottom: -90px;
+}
+
+.antecuarto{
+    margin: auto;
+    text-align: center;
+    height: 200px;
+    width: 40%;
+}
+.ocultado{
+    visibility: hidden;
+}
+.ocultados{
+    margin: auto;
+    text-align: center;
+    height: 200px;
+    width: 40%;
+}
+
+#Informaciones:checked ~ .ocultado{
+    visibility: visible;
+    margin: auto;
+    text-align: center;
+    height: 200px;
+    width: 40%;
+    margin-top: -120px;
+    margin-bottom: 100px;
+    animation: lineas 3s;
+}
+
+#Informaciones:checked ~ .ver{
+    visibility: hidden;
+}
+
+.ganador{
+    animation: bordes 2s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+@keyframes bordes{
+    0%{
+        text-shadow: -0px -2px 5px rgb(174, 255, 0), 0px 3px 5px rgb(0, 255, 149),-0px -2px 5px rgb(204, 255, 0);
+        transition: 3s;
+    }
+    25%{
+        text-shadow: -0px -2px 5px rgb(0, 225, 255), 0px 3px 5px rgb(162, 0, 255),-0px -2px 5px rgb(187, 255, 0);
+        transition: 3s;
+    }
+    50%{
+        text-shadow: -0px -2px 5px rgb(0, 255, 136), 0px 3px 5px rgb(102, 255, 0),-0px -2px 5px rgb(255, 0, 191);
+        transition: 3s;
+    }
+    75%{
+        text-shadow: -0px -2px 5px rgb(0, 255, 21), 0px 3px 5px rgb(0, 195, 255),-0px -2px 5px rgb(255, 0, 191);
+        transition: 3s;
+    }
+    100%{
+        text-shadow: -0px -2px 5px rgb(174, 255, 0), 0px 3px 5px rgb(0, 255, 149),-0px -2px 5px rgb(204, 255, 0);
+        transition: 3s;
+    } 
+}
+.undiv{
+    margin-top: -54px;
+    background: url(../Imagenes/Fondodiv.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 20px;
+}
+.dosdiv{
+    margin-top: -53px;
+    background: url(../Imagenes/dosdiv.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 20px;
+}
+.Tercerdiv{
+    margin-top: -10px;
+    background: url(../Imagenes/divtercero.jpg);
+    background-position: 0 -150px ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 20px;
+    padding-top: 10px;
+    color: white;
+}
+.divcuarto{
+    margin-top: -10px;
+    background: url(../Imagenes/cuartodiv.jpg);
+    background-position: 0 -150px ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 20px;
+    padding-top: 10px;
+    color: white;
 }
