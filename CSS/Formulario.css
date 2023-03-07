@@ -11,3 +11,38 @@ body{
   padding: 160px 45px 30px;
   box-shadow: 0 10px 40px hsla(0, 0, 0, .1);
 }
+
+.cNUM{
+width: 40px;
+display: inline-block;
+margin: auto;
+}
+
+#ccv{
+    width: 40px; 
+}
+.priemrfiel{
+   
+}
+
+fieldset{ 
+    border: none;
+    padding: 0;
+    padding: 10px 0;
+    position: relative;
+    clear: both;
+}
+
+label {
+    display: block;
+    text-transform: uppercase;
+    font-size: 11px;
+    color: hsla(0, 0, 0, .6);
+    margin-bottom: 5px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.fechacaducar{
+float: left;
+width: 60%;}
