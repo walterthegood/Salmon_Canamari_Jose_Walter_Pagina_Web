@@ -46,3 +46,12 @@ label {
 .fechacaducar{
 float: left;
 width: 60%;}
+img{
+
+    margin-left: 31%;
+    margin-bottom: -22%;
+    height:300px ;
+    width: 530px ;
+    position: relative;
+    z-index: 10;
+}
