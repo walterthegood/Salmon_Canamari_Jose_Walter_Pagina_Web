@@ -240,6 +240,16 @@ header{
     padding-bottom: 20px;
     padding-right: 10px;
 }
+.parrafodelamuerte{
+    background-color: rgba(255, 99, 9, 0.425);
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    padding-right: 10px;
+}
 .cero{
     background-color: rgba(6, 61, 243, 0.445);
     color: white;
