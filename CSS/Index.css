@@ -237,8 +237,15 @@ header{
 }
 
 legend{
+    color: white;
+    text-decoration: double;
     text-align: center;
-    font-size: 30px;
+    font-size: 35px;
+    text-shadow: -0px -2px 5px rgb(0, 136, 255), 0px 3px 5px rgb(0, 255, 242),-0px -2px 5px rgb(0, 255, 94);
+
+}
+.negro{
+    color: black;
 }
 
 .Fase{
@@ -257,7 +264,7 @@ legend{
     
 }
 table{
-    border: 1px solid white;
+    border: 2px solid white;
 }
 
 .tabla, .tabla2{
@@ -556,7 +563,8 @@ height: 20px;}
     text-align: center;
     height: 100px;
     width: 40%;
-    margin-bottom: -10px;
+    margin-bottom: -95px;
+    
 }
 
 .finalmuno{    
@@ -567,9 +575,10 @@ height: 20px;}
 }
 .ocultarfin{
     visibility: hidden;
-    margin-bottom: -300px;
+  
 }
 .ocultarfines{
+    
     margin: auto;
     text-align: center;
     height: 200px;
@@ -581,17 +590,12 @@ height: 20px;}
     text-align: center;
     height: 200px;
     width: 40%;
-    margin-top: -150px;
-    padding-bottom: 450px;
+    margin-top: -120px;
+    padding-bottom: 100px;
 
 }
 #Informafin:checked ~ .ver4{
     visibility: hidden;
-}
-#Informafin:checked ~ .Video4{
-    visibility: visible;
-    margin-left: 40%;
-    margin-top: -50px;
 }
 
 
@@ -687,11 +691,20 @@ height: 20px;}
     padding-bottom: 50px;
     padding-top: 10px;
     color: white;
+    margin-bottom: -22px;
 }
 
+.divdel{
+    background-color: blue;
+}
+
+
 .ParfLeyendas{
+
+    background-color: aqua;
     text-align: center;
 }
+
 
 #imagen1{
 
