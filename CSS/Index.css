@@ -224,6 +224,32 @@ header{
     font-size: 50px;
     font-family: 'Times New Roman', Times, serif;
 }
+
+.parrafodelcam::first-letter{
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.parrafodelcam{
+    background-color: rgba(255, 99, 9, 0.425);
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    padding-right: 10px;
+}
+.parrafodelamuerte{
+    background-color: rgba(255, 99, 9, 0.425);
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    padding-right: 10px;
+}
 .cero{
     background-color: rgba(6, 61, 243, 0.445);
     color: white;
@@ -695,13 +721,31 @@ height: 20px;}
 }
 
 .divdel{
-    background-color: blue;
+    margin-top: -10px;
+    background: url(../Imagenes/bmundo.png);
+    background-position: 0 -200px ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 50px;
+    padding-top: 10px;
+    color: white;
+    
 }
 
 
 .ParfLeyendas{
-
-    background-color: aqua;
+    background-color: rgba(255, 174, 0, 0.664);
+    text-shadow: -0px -2px 5px rgb(174, 255, 0), 0px 3px 5px rgb(0, 255, 149),-0px -2px 5px rgb(204, 255, 0);
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-left: 100px;
+    margin-right: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 35px;
     text-align: center;
 }
 
@@ -710,3 +754,6 @@ height: 20px;}
 
     margin: auto;
 }
+
+
+.ultimodivfinal{}
