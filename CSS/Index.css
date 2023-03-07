@@ -688,8 +688,12 @@ height: 20px;}
     padding-top: 10px;
     color: white;
 }
-
 .ParfLeyendas{
+    
+    text-align: center;
+}
+#Informafin:checked  ~  .ParfLeyendas{
+
     text-align: center;
 }
 
