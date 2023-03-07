@@ -8,20 +8,101 @@
 
 </head>
 <body>
-    
-    <form class="form" autocomplete="off" novalidate>
-      <fieldset>
-        <label for="card-number">Numero de Tarjeta</label>
-        <input type="num" id="card-number" class="input-cart-number" maxlength="4" />
-        <input type="num" id="card-number-1" class="input-cart-number" maxlength="4" />
-        <input type="num" id="card-number-2" class="input-cart-number" maxlength="4" />
-        <input type="num" id="card-number-3" class="input-cart-number" maxlength="4" />
-      </fieldset>
+    <img src="../Imagenes/tarjeta de credito delante.png" alt="tarjeta">
+    <div class="checkout" >
+        <form class="form" autocomplete="off" novalidate>
+        <fieldset >
+            <label for="card-number">Numero de Tarjeta</label>
+            <input type="num" id="card-number" class="cNUM" maxlength="4" />
+            <input type="num" id="card-number-1" class="cNUM" maxlength="4" />
+            <input type="num" id="card-number-2" class="cNUM" maxlength="4" />
+            <input type="num" id="card-number-3" class="cNUM" maxlength="4" />
+        </fieldset>
 
 
-    
-    </form>
-  
+        <fieldset>
+            <label for="DNI">Numero de DNI</label>
+            <input type="num" id="DNI"  maxlength="9" placeholder="Escribe un DNI"/>
+        </fieldset>
+
+        <fieldset>
+            <label for="email" >Correo Electronico</label>
+            <input type="email" id="email" placeholder="JuanValdez@gmail.com"/>
+        </fieldset>
+
+        <fieldset>
+            <label for="DTajeta">Dueño de la Tarjeta de credito</label>
+            <input type="text" id="DTajeta" placeholder="Pon el Propieterio" />
+        </fieldset>
+
+        <fieldset>
+            <label for="Pais">Pais de Residencia</label>
+            <input type="text" id="Pais" placeholder="Me Gusta el Dinero Gracias "/>
+        </fieldset>
+
+
+        <fieldset class="fechacaducar">
+                <label for="card-expiration-month">Fecha de Expiracion</label>
+                <div class="Fecha">
+                <select id="expiracion">
+                    <option></option>
+                    <option>01</option>
+                    <option>02</option>
+                    <option>03</option>
+                    <option>04</option>
+                    <option>05</option>
+                    <option>06</option>
+                    <option>07</option>
+                    <option>08</option>
+                    <option>09</option>
+                    <option>10</option>
+                    <option>11</option>
+                    <option>12</option>
+                </select>
+                </div>
+                
+                <div class="select">
+                    <select id="expiracion">
+                    <option></option>
+                    <option>2023</option>
+                    <option>2024</option>
+                    <option>2025</option>
+                    <option>2026</option>
+                    <option>2027</option>
+                    <option>2028</option>
+                    <option>2029</option>
+                    <option>2030</option>
+                    </select>
+                </div>
+                <div>
+                    <p>Hora de Expiracion
+                    <input type="time" name="hora de Expriracion">
+                    </p>
+                </div>
+                <div>
+                    <p>Color de la tarjeta
+                    <input type="color" name="color elegido" value="#efb810">
+                    </p>
+                </div>
+            </fieldset>
+
+            <fieldset>
+                <label >CCV</label>
+                <input type="text" id="ccv" maxlength="3" />
+            </fieldset>
+            <p>Tipo de Tarjeta
+                <input type="radio" name="hm" value="C"> Credito
+                <input type="radio" name="hm" value="D"> Debito
+              </p>
+            <p>
+            <input type="checkbox" name="casilla">No denunciare si desaparece todo mi dinero y tengo 10 prestamos</p>
+            <p>
+              <input type="submit" value="Enviar">
+            <input type="reset" value="Borrar">
+
+        
+        </form>
+    </div>
   
   
   
