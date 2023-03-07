@@ -19,10 +19,9 @@ header{
 	width: 100%;
     height:190px;
     transition: 3s;
-    background-image:  url(../Imagenes/logo.png),url(../Imagenes/mundo.jpg);
-
+    background-image:  url(../Imagenes/logo.png),url(../Imagenes/mundi.jpg);
     background-size: 120px 180px, 100% ;
-    background-position: 99% 10px, 0 -450px;
+    background-position: 99% 10px, 0 -00px;
     background-repeat: no-repeat;
     text-align: center;
     transition: 3s;
@@ -34,9 +33,9 @@ header{
     width: 100%;
     height: 600px;
     transition: 3s;
-    background-image:  url(../Imagenes/logo.png),url(../Imagenes/mundo.jpg);
+    background-image:  url(../Imagenes/logo.png),url(../Imagenes/mundi.jpg);
     background-size: 120px 180px, 100% ;
-    background-position: 99% 10px, 0 -450px;
+    background-position: 99% 10px, 0 -190px;
     background-repeat: no-repeat;
     text-align: center;
     transition: 3s;
@@ -197,9 +196,34 @@ header{
     padding-bottom: 20px;
     padding-right: 10px;
 }
-
-
-
+.parafcinco{
+    background-color: rgba(160, 159, 246, 0.581);
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    padding-right: 10px;
+}
+.parafcinco::first-letter{
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.parrafofin{
+    background-color: rgba(247, 255, 9, 0.564);
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    padding-right: 10px;
+}
+.parrafofin::first-letter{
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+}
 .cero{
     background-color: rgba(6, 61, 243, 0.445);
     color: white;
@@ -298,9 +322,16 @@ td{
 }
 
 section {
+    transition: 2s;
+    margin: auto;
     display: flex;
-    width: 600px;
-    height: 430px;
+    width: 700px;
+    height: 420px;
+}
+section:hover {
+    border: yellow 2px solid;
+    box-shadow: -0px -2px 5px yellow, 0px 3px 5px yellow,-0px -2px 5px yellow;
+
 }
 
 section img {
@@ -390,7 +421,7 @@ height: 20px;}
     text-align: center;
     height: 100px;
     width: 40%;
-    margin-bottom: -400px;
+    margin-bottom: -100px;
 }
 
 .Octavo{
@@ -419,22 +450,9 @@ height: 20px;}
     width: 40%;
     margin-top: -120px;
     margin-bottom: 100px;
+    
 }
 
-#Informacion:checked ~ video{
-    visibility: visible;
-    transition: 3s;
-    margin-top: 100px;
-    margin-left: 40%;
-    height: 300px;
-    width: 500px;
-}
-video{
-    visibility: hidden;
-    margin-left: 40%;
-    height: 300px;
-    width: 500px;
-}
     
 #Informacion:checked ~ .visible {
     visibility: hidden;
@@ -446,7 +464,7 @@ video{
     text-align: center;
     height: 100px;
     width: 40%;
-    margin-bottom: -90px;
+    margin-bottom: -10px;
 }
 
 .antecuarto{
@@ -454,9 +472,11 @@ video{
     text-align: center;
     height: 200px;
     width: 40%;
+
 }
 .ocultado{
     visibility: hidden;
+    margin-bottom: -300px;
 }
 .ocultados{
     margin: auto;
@@ -471,14 +491,109 @@ video{
     text-align: center;
     height: 200px;
     width: 40%;
-    margin-top: -120px;
-    margin-bottom: 100px;
-    animation: lineas 3s;
+    margin-top: -150px;
+    margin-bottom: 300px;
+
 }
 
 #Informaciones:checked ~ .ver{
     visibility: hidden;
 }
+#Informaciones:checked ~ .Video2{
+    visibility: visible;
+    margin-left: 40%;
+    margin-top: -50px;
+}
+/*TABLA DE Semi */
+.ver2{
+    margin: auto;
+    text-align: center;
+    height: 100px;
+    width: 40%;
+    margin-bottom: -10px;
+}
+
+.semis{    
+    margin: auto;
+    text-align: center;
+    height: 200px;
+    width: 40%;
+}
+.ocultatre{
+    visibility: hidden;
+    margin-bottom: -300px;
+}
+.ocultatres{
+    margin: auto;
+    text-align: center;
+    height: 200px;
+    width: 40%;
+}
+#Informa:checked ~ .ocultatre{
+    visibility: visible;
+    margin: auto;
+    text-align: center;
+    height: 200px;
+    width: 40%;
+    margin-top: -150px;
+    margin-bottom: 300px;
+
+}
+#Informa:checked ~ .ver2{
+    visibility: hidden;
+}
+#Informa:checked ~ .Video3{
+    visibility: visible;
+    margin-left: 40%;
+    margin-top: -50px;
+}
+
+
+/*Final */
+
+.ver4{
+    margin: auto;
+    text-align: center;
+    height: 100px;
+    width: 40%;
+    margin-bottom: -10px;
+}
+
+.finalmuno{    
+    margin: auto;
+    text-align: center;
+    height: 200px;
+    width: 40%;
+}
+.ocultarfin{
+    visibility: hidden;
+    margin-bottom: -300px;
+}
+.ocultarfines{
+    margin: auto;
+    text-align: center;
+    height: 200px;
+    width: 40%;
+}
+#Informafin:checked ~ .ocultarfin{
+    visibility: visible;
+    margin: auto;
+    text-align: center;
+    height: 200px;
+    width: 40%;
+    margin-top: -150px;
+    padding-bottom: 450px;
+
+}
+#Informafin:checked ~ .ver4{
+    visibility: hidden;
+}
+#Informafin:checked ~ .Video4{
+    visibility: visible;
+    margin-left: 40%;
+    margin-top: -50px;
+}
+
 
 .ganador{
     animation: bordes 2s;
@@ -517,7 +632,7 @@ video{
     padding-bottom: 20px;
 }
 .dosdiv{
-    margin-top: -53px;
+    margin-top: -54px;
     background: url(../Imagenes/dosdiv.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -548,4 +663,37 @@ video{
     padding-bottom: 20px;
     padding-top: 10px;
     color: white;
+}
+.quintodiv{
+    margin-top: -10px;
+    background: url(../Imagenes/divfinal.jpg);
+    background-position: 0 -200px ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 20px;
+    padding-top: 10px;
+    color: white;
+}
+.Divfinal{
+    margin-top: -10px;
+    background: url(../Imagenes/Brasilcampeon.jpg);
+    background-position: 0 -200px ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 50px;
+    padding-top: 10px;
+    color: white;
+}
+
+.ParfLeyendas{
+    text-align: center;
+}
+
+#imagen1{
+
+    margin: auto;
 }
