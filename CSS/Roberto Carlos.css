@@ -132,3 +132,13 @@ header{
         }
 }
 
+
+@media only screen and (max-width: 600px){
+    body{
+        background: url(../Imagenes/fondo\ ajust\ robert.jpg);
+    }
+    p{
+        background-color: aqua;
+        color: blue;
+    }
+}
