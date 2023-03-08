@@ -149,6 +149,21 @@ header{
     padding-right: 20px;
 }
 
+.PrimerDiv{
+
+    background: linear-gradient(to right, blue, pink);
+}
+
+
+
+
+
+
+
+
+
+
+
 /*Medias Screen*/
 
 @media screen and (max-width: 600px){
@@ -216,8 +231,8 @@ header{
 }
 @media screen and (max-width: 600px){
     .PrimerP{
-        color: aquamarine;
-        background-color: blue;
+        color: white;
+        background-color: rgba(84, 12, 151, 0.575);
     }
     .PrimerP::first-letter{
         font-size: 30px;
@@ -226,7 +241,11 @@ header{
 }
 
 @media screen and (max-width: 600px){
- 
+    .PrimerDiv{
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+ }
 
 }
 
