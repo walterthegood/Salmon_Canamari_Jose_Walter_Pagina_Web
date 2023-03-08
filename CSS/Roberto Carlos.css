@@ -159,16 +159,23 @@ header{
 }
 
 
-
+.DIvVideo1{
+}
 
 
 .Video1{
     visibility: visible;
+    margin-left: 30%;
+    height: 320px;
+    width: 500px;
 }
 
 
 .Video2{
     visibility: hidden;
+    margin-top: -300px;
+    height: 600px;
+    width: 450px;
 }
 
 
