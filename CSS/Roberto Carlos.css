@@ -170,6 +170,19 @@ header{
     width: 500px;
 }
 
+.tabla{
+    border: 1px solid black;
+    font-size: 20px;
+    padding: 20px;
+    text-align: center;
+    margin:auto
+
+}
+
+td{
+    margin-left: 10px;
+
+}
 
 .Video2{
     visibility: hidden;
