@@ -132,6 +132,24 @@ header{
         }
 }
 
+.PrimerP::first-letter{
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+.PrimerP{
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 20px;
+}
+
+/*Medias Screen*/
 
 @media screen and (max-width: 600px){
     .navegacion{
@@ -139,8 +157,8 @@ header{
         height:200px;
         transition: 3s;
         background-image:  url(../Imagenes/logo.png),url(../Imagenes/mundi.jpg);
-        background-size: 120px 180px, 100% ;
-        background-position: 99% 10px, 0 -00px;
+        background-size: 60px 90px, 100% ;
+        background-position: bottom right, 0 -00px;
         background-repeat: no-repeat;
         text-align: center;
         transition: 3s;
@@ -162,7 +180,7 @@ header{
     .menu > li{
         position: relative;
         display: inline-block;
-       
+       margin-left: -5px;
     }
 }
 
@@ -197,9 +215,13 @@ header{
     }
 }
 @media screen and (max-width: 600px){
-    p{
+    .PrimerP{
         color: aquamarine;
         background-color: blue;
+    }
+    .PrimerP::first-letter{
+        font-size: 30px;
+        font-family: 'Times New Roman', Times, serif;
     }
 }
 
