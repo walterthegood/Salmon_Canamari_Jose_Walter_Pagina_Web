@@ -191,8 +191,16 @@ td{
     width: 450px;
 }
 
+.Titulo1{
+    text-align: center;
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+}
 
-
+textarea{
+    margin-left: 35%;
+    font-size: 25px;
+}
 
 /*Medias Screen*/
 
@@ -297,3 +305,14 @@ td{
     }
     
 }
+
+@media screen and (max-width: 600px){
+ 
+    textarea{
+        margin: 10%;
+        font-size: 25px;
+    }
+    
+    
+}
+
