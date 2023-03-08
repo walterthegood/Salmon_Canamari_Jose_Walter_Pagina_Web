@@ -181,6 +181,17 @@ header{
     padding-right: 20px;
 }
 
+.ultimopp{
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 20px;
+}
+
 .PrimerDiv{
 
     background: linear-gradient(to right, blue, pink);
@@ -196,11 +207,23 @@ header{
     padding-left: 25px;
     padding-right: 25px;
     padding-bottom: -100px;
+    margin-bottom: -250px;
 }
 
+.TercerDiv{
+    background: linear-gradient(to right, rgb(0, 247, 255),rgb(255, 207, 192));
+    margin-top: -54px;
+    padding-left: 25px;
+    padding-right: 25px;
+    margin-bottom: -250px;
 
-.DIvVideo1{
 }
+
+.ultimodiv{
+
+    background: linear-gradient( to right, rgb(255, 179, 0),rgb(222, 155, 243));
+}
+
 
 
 .Video1{
@@ -250,6 +273,13 @@ td{
 textarea{
     margin-left: 35%;
     font-size: 25px;
+}
+
+.fomsdj{
+    margin-left: 45%;
+    font-size: 20px;
+    height: 50px;
+    width: 150px;
 }
 
 /*Medias Screen*/
@@ -404,4 +434,45 @@ textarea{
         overflow: scroll;
     
     }
+
+}
+
+@media screen and (max-width: 600px){
+    .PrimerDiv{
+
+        background: linear-gradient(  blue, pink);
+    }
+
+}
+@media screen and (max-width: 600px){
+    .SegundoDiv{
+        background: linear-gradient( rgb(0, 255, 26), rgb(255, 245, 192));
+    margin-bottom: 55px;
+    }
+
+}
+@media screen and (max-width: 600px){
+    .TercerDiv{
+        background: linear-gradient( rgb(0, 247, 255),rgb(255, 207, 192));
+        margin-bottom: 0px;
+      
+    }
+
+}
+
+@media screen and (max-width: 600px){
+.ultimodiv{
+    background: linear-gradient( rgb(255, 179, 0),rgb(222, 155, 243));
+    
+}
+}
+
+@media screen and (max-width: 600px){
+.fomsdj{
+    margin-left: 35%;
+    margin-top: -10px;
+    font-size: 20px;
+    height: 50px;
+    width: 150px;
+}
 }
