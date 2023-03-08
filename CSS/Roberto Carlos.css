@@ -149,6 +149,38 @@ header{
     padding-right: 20px;
 }
 
+.PrimerX{
+    background-color: rgba(25, 224, 255, 0.5);
+    color: white;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 20px;
+}
+.PrimerW{
+    background-color: rgba(252, 255, 47, 0.527);
+    color: white;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 20px;
+}
+
+.PrimerQ{
+    background-color: rgba(82, 255, 47, 0.62);
+    color: white;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 20px;
+}
+
 .PrimerDiv{
 
     background: linear-gradient(to right, blue, pink);
@@ -156,6 +188,14 @@ header{
     padding-left: 25px;
     padding-right: 25px;
     padding-bottom: 20px;
+}
+
+.SegundoDiv{
+    background: linear-gradient(to right, rgb(0, 255, 26), rgb(255, 245, 192));
+    margin-top: -54px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: -100px;
 }
 
 
@@ -179,6 +219,13 @@ header{
 
 }
 
+.Ltabla{
+    text-align: center;
+    font-size: 30px;
+    text-decoration: underline;
+    margin-bottom: 10px;
+}
+
 td{
     margin-left: 10px;
 
@@ -195,6 +242,9 @@ td{
     text-align: center;
     font-size: 35px;
     font-family: Arial, Helvetica, sans-serif;
+    padding: 20px;
+    color: aliceblue;
+    
 }
 
 textarea{
@@ -315,4 +365,43 @@ textarea{
     
     
 }
+@media screen and (max-width: 600px){
+.Titulo1{
+    color: aliceblue;animation: uno 2s;
+    animation-timing-function:initial;
+    animation-iteration-count: infinite;
 
+}
+    @keyframes uno{
+        0%{
+            color: white;
+            transition: 2s;
+        }
+        25%{
+            color: rgb(68, 0, 255) ;
+            transition: 2s;
+        }
+        50%{
+            color: rgb(0, 255, 242) ;
+            transition: 2s;
+        }
+        75%{
+            color: rgb(0, 255, 94) ;
+            transition: 2s;
+        }
+        100%{
+            color: rgb(183, 0, 255);
+            transition: 2s;
+        }
+    
+}
+
+}
+
+@media screen and (max-width: 600px){
+    .PrimerP{
+        height: 200px;
+        overflow: scroll;
+    
+    }
+}
