@@ -149,6 +149,139 @@ header{
     padding-right: 20px;
 }
 
+.PrimerX{
+    background-color: rgba(25, 224, 255, 0.5);
+    color: white;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 20px;
+}
+.PrimerW{
+    background-color: rgba(252, 255, 47, 0.527);
+    color: white;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 20px;
+}
+
+.PrimerQ{
+    background-color: rgba(82, 255, 47, 0.62);
+    color: white;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 20px;
+}
+
+.ultimopp{
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 20px;
+}
+
+.PrimerDiv{
+
+    background: linear-gradient(to right, blue, pink);
+    margin-top: -54px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 20px;
+}
+
+.SegundoDiv{
+    background: linear-gradient(to right, rgb(0, 255, 26), rgb(255, 245, 192));
+    margin-top: -54px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: -100px;
+    margin-bottom: -250px;
+}
+
+.TercerDiv{
+    background: linear-gradient(to right, rgb(0, 247, 255),rgb(255, 207, 192));
+    margin-top: -54px;
+    padding-left: 25px;
+    padding-right: 25px;
+    margin-bottom: -250px;
+
+}
+
+.ultimodiv{
+
+    background: linear-gradient( to right, rgb(255, 179, 0),rgb(222, 155, 243));
+}
+
+
+
+.Video1{
+    visibility: visible;
+    margin-left: 30%;
+    height: 320px;
+    width: 500px;
+}
+
+.tabla{
+    border: 1px solid black;
+    font-size: 20px;
+    padding: 20px;
+    text-align: center;
+    margin:auto
+
+}
+
+.Ltabla{
+    text-align: center;
+    font-size: 30px;
+    text-decoration: underline;
+    margin-bottom: 10px;
+}
+
+td{
+    margin-left: 10px;
+
+}
+
+.Video2{
+    visibility: hidden;
+    margin-top: -300px;
+    height: 600px;
+    width: 450px;
+}
+
+.Titulo1{
+    text-align: center;
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px;
+    color: aliceblue;
+    
+}
+
+textarea{
+    margin-left: 35%;
+    font-size: 25px;
+}
+
+.fomsdj{
+    margin-left: 45%;
+    font-size: 20px;
+    height: 50px;
+    width: 150px;
+}
+
 /*Medias Screen*/
 
 @media screen and (max-width: 600px){
@@ -216,8 +349,8 @@ header{
 }
 @media screen and (max-width: 600px){
     .PrimerP{
-        color: aquamarine;
-        background-color: blue;
+        color: white;
+        background-color: rgba(84, 12, 151, 0.575);
     }
     .PrimerP::first-letter{
         font-size: 30px;
@@ -226,16 +359,120 @@ header{
 }
 
 @media screen and (max-width: 600px){
- 
+    .PrimerDiv{
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+ }
 
 }
 
 @media screen and (max-width: 600px){
  
+.Video1{
+    visibility: hidden;
+}
+
+
+
     
 }
 
 @media screen and (max-width: 600px){
  
+    .Video2{
+        visibility: visible;
+    }
     
+}
+
+@media screen and (max-width: 600px){
+ 
+    textarea{
+        margin: 10%;
+        font-size: 25px;
+    }
+    
+    
+}
+@media screen and (max-width: 600px){
+.Titulo1{
+    color: aliceblue;animation: uno 2s;
+    animation-timing-function:initial;
+    animation-iteration-count: infinite;
+
+}
+    @keyframes uno{
+        0%{
+            color: white;
+            transition: 2s;
+        }
+        25%{
+            color: rgb(68, 0, 255) ;
+            transition: 2s;
+        }
+        50%{
+            color: rgb(0, 255, 242) ;
+            transition: 2s;
+        }
+        75%{
+            color: rgb(0, 255, 94) ;
+            transition: 2s;
+        }
+        100%{
+            color: rgb(183, 0, 255);
+            transition: 2s;
+        }
+    
+}
+
+}
+
+@media screen and (max-width: 600px){
+    .PrimerP{
+        height: 200px;
+        overflow: scroll;
+    
+    }
+
+}
+
+@media screen and (max-width: 600px){
+    .PrimerDiv{
+
+        background: linear-gradient(  blue, pink);
+    }
+
+}
+@media screen and (max-width: 600px){
+    .SegundoDiv{
+        background: linear-gradient( rgb(0, 255, 26), rgb(255, 245, 192));
+    margin-bottom: 55px;
+    }
+
+}
+@media screen and (max-width: 600px){
+    .TercerDiv{
+        background: linear-gradient( rgb(0, 247, 255),rgb(255, 207, 192));
+        margin-bottom: 0px;
+      
+    }
+
+}
+
+@media screen and (max-width: 600px){
+.ultimodiv{
+    background: linear-gradient( rgb(255, 179, 0),rgb(222, 155, 243));
+    
+}
+}
+
+@media screen and (max-width: 600px){
+.fomsdj{
+    margin-left: 35%;
+    margin-top: -10px;
+    font-size: 20px;
+    height: 50px;
+    width: 150px;
+}
 }
